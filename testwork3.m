@@ -1,17 +1,17 @@
 
-% x=input('请输入你的成绩。');
-% if x>=90 && x<=100
-%     G="A";
-% elseif x<90 && x>=80
-%     G="B";
-% elseif x<80 && x>=70
-%     G="C";
-% elseif x<70 && x>=60
-%     G="D";
-% else
-%     G="E";
-% end
-% disp('你的等级是：'+G);
+x=input('请输入你的成绩。');
+if x>=90 && x<=100
+    G="A";
+elseif x<90 && x>=80
+    G="B";
+elseif x<80 && x>=70
+    G="C";
+elseif x<70 && x>=60
+    G="D";
+else
+    G="E";
+end
+disp('你的等级是：'+G);
 % 
 % Y=input('请输入你的成绩。');
 % switch Y<=100 && Y>=0
@@ -41,16 +41,16 @@ n=input('请输入n的值。\n n=');
 % end
 
 %向量运算
-m=1:1:n;
-mn=2*m;
-ms=mn.*mn./((mn+1).*(mn-1));
-sum=prod(ms);
-
-disp('经过公式后的计算结果是');
-disp(sum);
+% m=1:1:n;
+% mn=2*m;
+% ms=mn.*mn./((mn+1).*(mn-1));
+% sum=prod(ms);
+% 
+% disp('经过公式后的计算结果是');
+% disp(sum);
 
 %任务三
-% x=input('请输入x向量或者矩阵：\n');
-% result=fx(x);
-% disp(result);
+x=input('请输入x向量或者矩阵：\n');
+result=fx(x);
+disp(result);
 
